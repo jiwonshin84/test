@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="My App", layout="wide")
+
 # Define the pages
 main_page = st.Page("main_page.py", title="Main Page", icon="🎈")
 page_2 = st.Page("page_2.py", title="Page 2", icon="❄️")
