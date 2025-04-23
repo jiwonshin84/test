@@ -1,4 +1,13 @@
+
+
 import streamlit as st
+
+st.set_page_config(page_title="홈", page_icon="🏠")
+st.title("스트림릿 멀티 페이지 앱 예시")
+st.write("왼쪽 사이드바에서 페이지를 선택하세요.")
+
+
+'''import streamlit as st
 
 st.set_page_config(
     page_title="🌍 대시보드",
@@ -46,6 +55,7 @@ st.markdown(
 ✨ **지금 바로** 왼쪽 메뉴를 눌러 호버, 슬라이더, 멀티셀렉트 등 다양한 인터랙티브 컨트롤을 활용하며 직접 데이터 속으로 뛰어들어 보세요!  
 """
 )
+
 # Define the pages
 main_page = st.Page("main_page.py", title="Main Page", icon="🎈")
 page_2 = st.Page("page_2.py", title="Page 2", icon="❄️")
