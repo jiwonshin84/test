@@ -1,8 +1,3 @@
-#import streamlit as st
-
-# Main page content
-#st.markdown("# Main page 🎈")
-#st.sidebar.markdown("# Main page 🎃")
 import streamlit as st
 
 st.set_page_config(
@@ -11,7 +6,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("🌍 SDGs 분석 대시보드 by 석리송🎵")
+st.title("🌍 SDGs 분석 대시보드")
 
 st.markdown(
     """
@@ -53,12 +48,12 @@ st.markdown(
 """
 )
 
-st.sidebar.markdown("# 🏥 **전세계 기대수명 변화** ")
-st.sidebar.markdown("# 💸 **저소득국 비율 변화** ")
-st.sidebar.markdown("# 🚀 **GDP 성장률 Top10** ")
-st.sidebar.markdown("# 🔍 **소득격차 분포**  ")
-st.sidebar.markdown("# 🔗 **기대수명 · GDP 상관관계** ")
-st.sidebar.markdown("# 👥 **인구증가 Top10**   ")
-st.sidebar.markdown("# 📈 **소득그룹별 GDP 추세** ")
-st.sidebar.markdown("# 🌐 **권역별 저소득국 수** ")
-st.sidebar.markdown("# 🔮 **2100 비교 분석** ")
+st.sidebar.markdown("# 🏥 전세계 기대수명 변화")
+st.sidebar.markdown("# 💸 저소득국 비율 변화")
+st.sidebar.markdown("# 🚀 GDP 성장률 Top10")
+st.sidebar.markdown("# 🔍 소득격차 분포")
+st.sidebar.markdown("# 🔗 기대수명 · GDP 상관관계")
+st.sidebar.markdown("# 👥 인구증가 Top10")
+st.sidebar.markdown("# 📈 소득그룹별 GDP 추세")
+st.sidebar.markdown("# 🌐 권역별 저소득국 수")
+st.sidebar.markdown("# 🔮 2100 비교 분석")
